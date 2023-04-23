@@ -3,8 +3,13 @@ This is an ingenius 11.0 framework repository. <br>
 
 Fork this repository
 
+
 Install:
-```pip install requirements.txt
+```
+cd backend
+pip install requirements.txt
+
+cd frontend
 npm i package.json
 ```
 
