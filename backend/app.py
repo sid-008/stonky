@@ -2,8 +2,10 @@ import yfinance as yf
 from flask import Flask
 from flask import jsonify
 import json
+from flask_cors import CORS
 
 app = Flask(__name__)
+CORS(app, origins=['http://localhost:3000'])
 
 @app.route("/")
 def ping():
